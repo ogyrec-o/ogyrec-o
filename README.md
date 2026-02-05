@@ -18,7 +18,9 @@ Server-authoritative simulation, transport-swappable multiplayer (QUIC / inproc)
 
 ## Stack
 **Rust · Bevy · WGSL**
+
 TypeScript · Lua · Python · (past: Godot)
+
 Arch Linux · AwesomeWM (X11)
 
 ---
