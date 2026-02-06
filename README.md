@@ -1,4 +1,4 @@
-# ogyrec
+# [ogyrec](https://ogyrecdev.github.io/)
 
 Rust game engine developer · modding platforms · ML systems · composer
 
