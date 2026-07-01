@@ -5,7 +5,7 @@ Rust game engine developer · modding platforms · ML systems · composer
 I'm building **[Freven](https://discord.gg/jNzCBNSMyW)** - a voxel sandbox + moddable platform with its own engine.
 Server-authoritative simulation, transport-swappable multiplayer (QUIC / inproc), and data-driven content where **"Experiences" (modes)** are first-class.
 
-[frevenengine/freven-devkit](https://github.com/frevenengine/freven-devkit)
+[frevenlabs/freven-devkit](https://github.com/frevenlabs/freven-devkit)
 
 ---
 
