@@ -17,9 +17,9 @@ Server-authoritative simulation, transport-swappable multiplayer (QUIC / inproc)
 - and more
 
 ## Stack
-**Rust · Bevy · WGSL**
+**Rust · Python · wgpu/WGSL · custom ECS/runtime · custom game engine**
 
-TypeScript · Lua · Python · (past: Godot)
+TypeScript · Lua · (Bevy, Godot, Unreal experience)
 
 Arch Linux · AwesomeWM (X11)
 
