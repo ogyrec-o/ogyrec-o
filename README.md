@@ -1,33 +1,26 @@
-# [ogyrec](https://ogyrecdev.github.io/)
+# Danylo Yenikeiev
 
-Rust game engine developer · modding platforms · ML systems · composer
+Software engineer focused on systems, game engines, AI/ML, networking, and developer tooling.
 
-I'm building **[Freven](https://discord.gg/jNzCBNSMyW)** - a voxel sandbox + moddable platform with its own engine.
-Server-authoritative simulation, transport-swappable multiplayer (QUIC / inproc), and data-driven content where **"Experiences" (modes)** are first-class.
+I'm building a modular, general-purpose game engine from scratch in Rust. **Freven** is a voxel game built on top of it and serves as a real downstream consumer for engine APIs, gameplay systems, rendering, collision, world streaming, and performance work.
 
-[frevenlabs/freven-devkit](https://github.com/frevenlabs/freven-devkit)
+## Current work
 
----
+- **Engine & runtime** - ECS, rendering, assets and content, scenes, input, physics, plugins, voxel systems, tooling, and API design
+- **AI & simulation** - deterministic neural networks, NEAT and neuroevolution, evolutionary algorithms, reinforcement learning, artificial life, and reproducible simulations
+- **Networking & integrations** - client/server systems, QUIC, WebSockets, Godot/GDExtension, and cross-platform debugging
+- **Reliability** - performance profiling, testing, CI, reproducibility, and lifecycle/resource management
 
-## Focus
-- **Engine & runtime** - voxel rendering/meshing, performance, clean layering, networking
-- **Content & modding foundations** - packs/registries/manifests, stable interfaces, code mods
-- **ML systems** - NEAT (incl. realtime variants), RL, LLM experiments & tooling
-- **Audio** - composition for games
-- and more
+Most of my current engine and AI/simulation work is private while it is being prepared for public release.
 
-## Stack
-**Rust · Python · wgpu/WGSL · custom ECS/runtime · custom game engine**
+## Selected public work
 
-TypeScript · Lua · (Bevy, Godot, Unreal experience)
+- **[Quinn: Windows/Wine ECN compatibility](https://github.com/quinn-rs/quinn/pull/2532)** - merged upstream contribution that keeps QUIC endpoint creation working when Wine/Proton lacks optional Winsock ECN functionality
+- **[Rune Companion](https://github.com/ogyrec-o/rune-companion)** - Python LLM companion framework with streaming replies, SQLite memory and tasks, injected service interfaces, and console/Matrix connectors
+- **[Gridworld Learning Lab](https://github.com/ogyrec-o/gridworld-learning-lab)** - reproducible Rust reinforcement-learning experiment with tabular Q-learning, seeded runs, persisted policies, evaluation metrics, and deterministic visual rollouts
 
-Arch Linux · AwesomeWM (X11)
+## Tools
 
----
+**Rust** · Python · wgpu/WGSL · Godot/GDExtension · QUIC/WebSockets · Linux/Docker · GitHub Actions
 
-## Activity
-<img src="./profile/streak.svg" height="165" />
-
----
-
-> Create, share, stay free.
+I enjoy both building systems from scratch and getting into unfamiliar codebases to find the actual root cause of a problem. I'm open to contract work and longer-term engineering collaboration.
